@@ -1,0 +1,124 @@
+.drawingApp {
+  background-color: rgb(245, 245, 245);
+}
+
+.container {
+  margin-top: 5px;
+}
+
+.colourPalette {
+  grid-area: colourP;
+  display: flex;
+  flex-direction: grid;
+  flex-flow: wrap;
+}
+
+.colourSwatches {
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+  max-height: 35px;
+  max-width: 35px;
+  margin: 5px;
+}
+
+.colourSwatches:hover {
+  filter: brightness(90%);
+  border-radius: 5px;
+}
+
+.drawingTools > div {
+  max-width: 11%;
+  display: inline-block;
+}
+
+.canvas {
+  min-height: 450px;
+  background-color: white;
+}
+
+#content {
+  margin-top: 5px;
+  min-height: 450px;
+  width: 100%;
+}
+
+.layer {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#directionButton {
+  margin: 5px;
+}
+
+.functionButtons > div {
+  width: 12.2%;
+  min-height: 60px;
+}
+
+.layers > div {
+  width: 100%;
+  max-height: 30px;
+  min-height: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.layers {
+  padding-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+.img-fluid:hover {
+  cursor: pointer;
+  filter: brightness(70%);
+}
+
+.appInfoWrapper {
+  border-radius: 4px;
+}
+
+.btn:hover,
+.layer:hover,
+#openInfoButton:hover {
+  background-color: #dddddd;
+  border-radius: 6px;
+}
+
+#openInfoButton {
+  background-color: #defefd;
+}
+
+#AppInformation {
+  display: none;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: 5%;
+}
+
+.closeInfoButtonWrapper {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#closeInfoButton {
+  color: white;
+  width: 100px;
+}
+
+#information-content {
+  padding-left: 10px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.options {
+  padding-top: 5px;
+}
